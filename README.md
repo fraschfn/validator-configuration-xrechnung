@@ -27,7 +27,7 @@ curl -L 'https://github.com/itplr-kosit/validator/releases/download/validationto
 curl -L 'https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download/release-2018-12-19/validator-configuration-xrechnung_1.2.0_2018-12-19.zip' --output validator-configuration.zip
 
 # download a test document
-curl -L 'https://raw.githubusercontent.com/itplr-kosit/xrechnung-testsuite/master/instances/01.01a-INVOICE_ubl.xml' --output ubl.xml
+curl -L 'https://raw.githubusercontent.com/itplr-kosit/xrechnung-testsuite/master/src/test/business-cases/standard/01.01a-INVOICE_ubl.xml' --output ubl.xml
 # show content of directory
 ls
 # should show something like this:
